@@ -10,50 +10,41 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:layout_weight="2"
-        android:padding="20dp"
-        >
+        android:orientation="vertical"
+        android:padding="20dp">
 
-        <RelativeLayout
+        <ImageView
+            android:id="@+id/gambar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            >
-
-            <ImageView
-                android:id="@+id/gambar"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/img_20190402_204805_2"
-
-                />
-        </RelativeLayout>
+            android:contentDescription="Gambar Agung"
+            android:src="@drawable/img_20190402_204805_2"
+            />
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-
             >
 
             <TextView
                 android:id="@+id/nama"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nama_lengkap"
-                android:textSize="28dp"
-                android:layout_centerInParent="true"
                 android:layout_alignParentTop="true"
-                />
+                android:layout_centerInParent="true"
+                android:text="@string/nama_lengkap"
+                android:textSize="28sp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/nim"
-                android:textSize="20dp"
                 android:layout_below="@id/nama"
                 android:layout_centerInParent="true"
-                />
+                android:text="@string/nim"
+                android:textSize="20sp" />
         </RelativeLayout>
     </LinearLayout>
 
@@ -61,314 +52,357 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
                 android:layout_marginBottom="10dp"
-                >
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Kelas"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/kelas"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Jenis Kelamin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/jenis_kelamin"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Tempat Tanggal Lahir"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/tempat_tanggal_lahir"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Alamat Rumah"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/alamat_rumah"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Golongan Darah"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/golongan_darah"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Makanan Kesukaan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/makanan_kesukaan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Minuman Kesukaan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/minuman_kesukaan"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Hobi"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/hobi"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Lagu Favorit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
                     android:text="@string/lagu_favorit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
                     android:text="Film Favorit"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text="@string/film_favorit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:text="@string/film_favorit"
+                    android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
-                android:background="#CCCCCC">
-            </LinearLayout>
+                android:background="#CCCCCC"></LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
                 <TextView
-                    android:text="Pekerjaan Yang Diinginkan Setelah Kuliah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="2"/>
+                    android:layout_weight="2"
+                    android:text="Pekerjaan Yang Diinginkan Setelah Kuliah"
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text=" : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"/>
+                    android:text=" : "
+                    android:textSize="20sp" />
+
                 <TextView
-                    android:text="@string/cita_cita_pekerjaan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="20dp"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    android:text="@string/cita_cita_pekerjaan"
+                    android:textSize="20sp" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
