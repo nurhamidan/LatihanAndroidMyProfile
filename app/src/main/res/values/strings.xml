@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">My Profile Application</string>
+    <string name="nama_lengkap">Agung Nurhamidan</string>
+    <string name="nim">10118017</string>
+    <string name="kelas">IF-1</string>
+    <string name="jenis_kelamin">Laki-Laki</string>
+    <string name="tempat_tanggal_lahir">Ciamis, 08 November 1998</string>
+    <string name="alamat_rumah">Kp. Cinyaut Girang, RT/RW 05/03, Desa Sukasarana, No. Rumah 26, Kecamatan KarangTengah, Kabupaten Cianjur, Provinsi Jawa Barat, Kode Pos 43281</string>
+    <string name="golongan_darah">O</string>
+    <string name="makanan_kesukaan">Semua Makanan Pedas</string>
+    <string name="minuman_kesukaan">Minuman Bersoda</string>
+    <string name="hobi">Berenang</string>
+    <string name="lagu_favorit">Bondan Prakoso &amp; Fade 2 Black - Ya Sudahlah</string>
+    <string name="film_favorit"></string>
+    <string-array name="film_favorit">
+        <item>Violet Evergarden</item>
+        <item>Non Non Biyori</item>
+        <item>We Bare Bears</item>
+        <item>Spongebob Squarepants</item>
+        <item>Penn Zero: Part-Time Hero</item>
+    </string-array>
+    <string name="cita_cita_pekerjaan">Ingin menjadi programmer yang selalu memiliki informasi terkini.</string>
 </resources>
