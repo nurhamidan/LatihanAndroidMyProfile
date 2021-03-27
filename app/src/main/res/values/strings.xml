@@ -11,13 +11,6 @@
     <string name="minuman_kesukaan">Minuman Bersoda</string>
     <string name="hobi">Berenang</string>
     <string name="lagu_favorit">Bondan Prakoso &amp; Fade 2 Black - Ya Sudahlah</string>
-    <string name="film_favorit"></string>
-    <string-array name="film_favorit">
-        <item>Violet Evergarden</item>
-        <item>Non Non Biyori</item>
-        <item>We Bare Bears</item>
-        <item>Spongebob Squarepants</item>
-        <item>Penn Zero: Part-Time Hero</item>
-    </string-array>
+    <string name="film_favorit">Violet Evergarden, Non Non Biyori, We Bare Bears, Spongebob Squarepants, &amp; Penn Zero: Part-Time Hero</string>
     <string name="cita_cita_pekerjaan">Ingin menjadi programmer yang selalu memiliki informasi terkini.</string>
 </resources>

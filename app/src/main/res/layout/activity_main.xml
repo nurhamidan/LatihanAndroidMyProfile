@@ -73,11 +73,16 @@
                 android:layout_marginBottom="10dp"
                 >
                 <TextView
-                    android:text="Kelas: "
+                    android:text="Kelas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/kelas"
                     android:layout_width="match_parent"
@@ -87,21 +92,36 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Jenis Kelamin: "
+                    android:text="Jenis Kelamin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/jenis_kelamin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,6 +135,11 @@
                     android:textSize="20dp"
                     android:layout_weight="2"/>
                 <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
+                <TextView
                     android:text="@string/tempat_tanggal_lahir"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -123,15 +148,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Alamat Rumah: "
+                    android:text="Alamat Rumah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/alamat_rumah"
                     android:layout_width="match_parent"
@@ -141,15 +176,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Golongan Darah: "
+                    android:text="Golongan Darah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/golongan_darah"
                     android:layout_width="match_parent"
@@ -159,15 +204,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Makanan Kesukaan: "
+                    android:text="Makanan Kesukaan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/makanan_kesukaan"
                     android:layout_width="match_parent"
@@ -177,15 +232,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Minuman Kesukaan: "
+                    android:text="Minuman Kesukaan"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/minuman_kesukaan"
                     android:layout_width="match_parent"
@@ -195,15 +260,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Hobi: "
+                    android:text="Hobi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/hobi"
                     android:layout_width="match_parent"
@@ -213,15 +288,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Lagu Favorit: "
+                    android:text="Lagu Favorit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/lagu_favorit"
                     android:layout_width="match_parent"
@@ -231,15 +316,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Film Favorit: "
+                    android:text="Film Favorit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/film_favorit"
                     android:layout_width="match_parent"
@@ -249,15 +344,25 @@
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="#CCCCCC">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginBottom="10dp">
                 <TextView
-                    android:text="Pekerjaan Yang Diinginkan Setelah Kuliah: "
+                    android:text="Pekerjaan Yang Diinginkan Setelah Kuliah"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="20dp"
                     android:layout_weight="2"/>
+                <TextView
+                    android:text=" : "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"/>
                 <TextView
                     android:text="@string/cita_cita_pekerjaan"
                     android:layout_width="match_parent"
